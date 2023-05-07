@@ -2,8 +2,12 @@ name: Release Obsidian plugin
 
 on:
   push:
-    tags:
-      - "*"
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
 
 env:
   PLUGIN_NAME: openai-markdown # Change this to match the id of your plugin.
