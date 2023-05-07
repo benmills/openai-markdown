@@ -1,0 +1,11 @@
+{
+  "id": "openai-markdown",
+	"name": "OpenAI Markdown",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Chats with AI as markdown files",
+	"author": "benmills",
+	"authorUrl": "https://github.com/benmills",
+	"fundingUrl": "https://github.com/benmills",
+	"isDesktopOnly": false
+}
