@@ -44,7 +44,9 @@ This is an early release and likely has bugs. Please be careful and consider the
 * OpenAI models are normally very good about outputting valid markdown, but there is little to no output sanitation.
 
 ## Installation
-Clone this repo inside your VAULT/.obsidian/plugin folder. As the plugin stabilizes it will be published as a community plugin.
+Clone this repo inside your VAULT/.obsidian/plugin folder. Run `npm i` or `yarn` and then `npm run dev` or `yarn dev`. By default, these will watch the repo for changes to make development easy. If you just want to build use ctrl+c to stop watching. You will see a file called `main.js` in the root directory if it worked.
+
+As the plugin stabilizes it will be published as a community plugin.
 
 ## Reach out
 Find me [@benemills](https://twitter.com/benemills) on twitter and [@benmills](https://warpcast.com/benmills) on Farcaster.
