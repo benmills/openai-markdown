@@ -7,6 +7,7 @@ Chat with OpenAI models as a markdown file inside Obsidian desktop or mobile.
 * Configure your OpenAI API key and use either GPT-3.5-turbo or GPT-4.
 
 **Example: chat.md**
+
 What is 1 + 2?
 
 ✨📜: The answer is 3 ••◦
@@ -15,16 +16,20 @@ What is 1 + 2?
 ## How it works
 
 **Conversation syntax**
-OpenAI Markdown prioritizes minimal syntax to ensure your files are as close to pure markdown as possible. Model responses are wrapped with `Icons` that can be set to any text string in the plugin settings. By default, a sequence of emojis are used.
+
+OpenAI Markdown prioritizes minimal syntax to ensure your files are as close to pure markdown as possible. Model responses are wrapped with `Icons` that can be set to any text string in the plugin settings. By default, a sequence of emojis are used (✨📜, ••◦).
 
 **Send file to OpenAI**
-Run the command `Send current file as conversation to OpenAI model` to extract the conversation from the current file and send it to the configured OpenAI model to get a response.
+
+Run the command `Send current file as conversation to OpenAI model` to extract the conversation from the current file and send it to the configured OpenAI model to get a response. Consider binding this to a hotkey like cmd+enter.
 
 **Reruns**
+
 By default, if you send a file to OpenAI without adding a new message it will delete the previous model response and regenerate it.
 
 **Delete last model response**
-Run the command `Delete last response from model`
+
+Run the command `Delete last response from model` Consider binding this to a hotkey like cmd+backspace.
 
 ## Risks
 
@@ -38,4 +43,4 @@ This is an early release and likely has bugs. Please be careful and consider the
 Clone this repo inside your VAULT/.obsidian/plugin folder. As the plugin stabilizes it will be published as a community plugin.
 
 ## Reach out
-Find me @benemills on twitter and @benmills on Farcaster.
+Find me [@benemills](https://twitter.com/benemills) on twitter and [@benmills](https://warpcast.com/benmills) on Farcaster.
