@@ -19,7 +19,7 @@ What is 1 + 2?
 
 **Conversation syntax**
 
-OpenAI Markdown prioritizes minimal syntax to ensure your files are as close to pure markdown as possible. Model responses are wrapped with `Icons` that can be set to any text string in the plugin settings. By default, a sequence of emojis are used (✨📜, ••◦).
+OpenAI Markdown prioritizes minimal syntax to ensure your files are as close to pure markdown as possible. Model responses are wrapped with `Icons` that can be set to any text string in the plugin settings. By default, a sequence of emojis are used (✨📜, ••◦). This means that all text not wrapped in the icons is considered a user message.
 
 **Send file to OpenAI**
 
