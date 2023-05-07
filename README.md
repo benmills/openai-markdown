@@ -2,6 +2,8 @@
 
 Chat with OpenAI models as a markdown file inside Obsidian desktop or mobile.
 
+<img src="https://user-images.githubusercontent.com/55991/236689892-b2781c7b-0bbf-4dfe-970a-acab3914d5fa.gif" width="200">
+
 * Edit the entire conversation, not just your next message, making few-shot prompting easy.
 * Store and organize your chats in your Obsidian vault
 * Configure your OpenAI API key and use either GPT-3.5-turbo or GPT-4.
@@ -22,6 +24,8 @@ OpenAI Markdown prioritizes minimal syntax to ensure your files are as close to 
 **Send file to OpenAI**
 
 Run the command `Send current file as conversation to OpenAI model` to extract the conversation from the current file and send it to the configured OpenAI model to get a response. Consider binding this to a hotkey like cmd+enter.
+
+*Note: Model responses are streamed to the file which can cause issues with scrolling while the model is responding*
 
 **Reruns**
 
