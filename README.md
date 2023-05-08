@@ -1,6 +1,6 @@
 # OpenAI Markdown
 
-Chat with OpenAI models as a markdown file inside Obsidian desktop or mobile.
+Chat with OpenAI models as a markdown file inside Obsidian desktop or mobile. [Download the latest release here](https://github.com/benmills/openai-markdown/releases/latest) and add it to your `.obsidian/plugins` folder to get started.
 
 <img src="https://user-images.githubusercontent.com/55991/236689892-b2781c7b-0bbf-4dfe-970a-acab3914d5fa.gif" width="200">
 
@@ -44,7 +44,11 @@ This is an early release and likely has bugs. Please be careful and consider the
 * OpenAI models are normally very good about outputting valid markdown, but there is little to no output sanitation.
 
 ## Installation
-Clone this repo inside your VAULT/.obsidian/plugin folder. Run `npm i` or `yarn` and then `npm run build` or `yarn build`. You will see a file called `main.js` in the root directory if it worked.
+[Download the latest release here](https://github.com/benmills/openai-markdown/releases/latest) and add it to your `.obsidian/plugins` folder.
+
+**Build it yourself**
+
+Clone this repo inside your `<Your Obsidian Vault Location>/.obsidian/plugins` folder. Run `npm i` or `yarn` and then `npm run build` or `yarn build`. You will see a file called `main.js` in the root directory if it worked.
 
 As the plugin stabilizes it will be published as a community plugin.
 
